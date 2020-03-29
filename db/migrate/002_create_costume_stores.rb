@@ -3,7 +3,7 @@
     create_table :costume_stores do |t|
       t.string :name 
       t.string :location 
-      t.string :size 
+      t.string :costume_inventory
       t.string :image_url
     end
   end 
