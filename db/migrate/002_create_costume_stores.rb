@@ -5,6 +5,7 @@
       t.string :location 
       t.string :num_of_employees
       t.string :image_url
+      still_in_business
     end
   end 
 end
