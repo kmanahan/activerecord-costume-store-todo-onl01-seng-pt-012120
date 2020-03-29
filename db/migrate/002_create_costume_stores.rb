@@ -5,8 +5,9 @@
       t.string :location 
       t.string :num_of_employees
       t.string :image_url
-      still_in_business
-      opening_time
+      t.boolean :still_in_business
+      t.string :opening_time
+      t.string :closing_time
     end
   end 
 end
